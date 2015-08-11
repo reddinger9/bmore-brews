@@ -1,0 +1,156 @@
+
+body {
+	background: #FFFFFF;
+	font-family: 'Hammersmith One', helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: .1em;
+	color: #545854;
+}
+
+
+header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: .3em;	
+}
+
+h1 {
+	font-size: 80px;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+
+nav ul {
+	display: block;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 24px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	vertical-align: center;
+}
+
+.nav-links {
+	display: inline-block;
+	border-top: 2px solid #545854;
+	margin: 0 10px;
+	padding: 15px 0;
+	width: 165px;
+	text-align: center;
+	transition: background-color .5s ease,
+				color .5s ease;	
+	text-decoration: none;
+	color: #545854;
+}
+
+.nav-links:hover {
+	background-color: #545854;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.bmore-background {
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+}
+
+.bmore {
+	height: 400px;
+	width: 100%;
+
+}
+
+.bmore-text {
+	color: #fff;
+	height: 370px;
+	margin: 15px 0 15px;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Roboto Slab', 'Times New Roman', serif;
+}
+
+
+
+/* -- FEATURES -- */
+
+.features-box {
+	height: 300px;
+	margin: 30px 0;
+	width: 200px;
+	color: #fff;
+	background-color: #FFA366;
+	padding: 15px;
+	position: relative;
+}
+
+.fs-grid .features-box h2 {
+	width: 75%;
+	margin: 0;
+
+}
+
+.features-button {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 75px;
+	line-height: 75px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .7);
+	color: #545854;
+	border-top: 3px solid #545854;
+	text-indent: 15px;
+	cursor: pointer;
+}
+
+.features-button:hover {
+	color: #AAACAA;
+	background-color: rgba(255, 255, 255, .9);
+}
+
+/* -- FOOTER -- */
+
+footer {
+	background: #545854;
+	height: 200px;
+}
+
+.footer-social {
+	text-align: center;
+}
+
+
+/* 
+
+-- grey --
+#545854
+
+-- peach --
+#FFE6B2
+
+FF9933
+
+
+*/
